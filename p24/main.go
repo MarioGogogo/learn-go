@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	f()
@@ -18,4 +20,7 @@ func f() {
 	default:
 		fmt.Println("D")
 	}
+}
+func test() {
+	fmt.Println("hello vim")
 }

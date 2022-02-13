@@ -16,5 +16,4 @@ func main() {
 	} else {
 		fmt.Println("你还是未成年")
 	}
-
 }

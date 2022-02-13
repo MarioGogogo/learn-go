@@ -16,7 +16,7 @@ func main() {
 		fmt.Println("b")
 	}
 	//下面这样的表达式  作用域 a不在外面 就是再if 语句内
-	if a := 100; a > 20 {
+	if a >= 20 {
 		fmt.Println("a")
 	} else {
 		fmt.Println("b")

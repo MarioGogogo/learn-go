@@ -39,8 +39,8 @@ func f3() {
 	}
 
 }
-func main() {
-	f()
-	f2()
-	f3()
+func main()
+f()
+f2()
+f3()
 }

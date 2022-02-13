@@ -33,7 +33,6 @@ func f3() {
 	m["name"] = "tom"
 	m["age"] = "20"
 	m["email"] = "my@163.com"
-
 	for key, value := range m {
 		fmt.Printf("%v:%v,,", key, value)
 	}
